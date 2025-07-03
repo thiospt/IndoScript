@@ -2,7 +2,7 @@
 
 Bahasa pemrograman JavaScript dengan sintaks Bahasa Indonesia yang sederhana.
 
-![IndoScript Logo](https://via.placeholder.com/150/2c3e50/3498db?text=IS)
+![IndoScript Logo](https://github.com/user-attachments/assets/13c62402-f6a0-4b51-983b-038d0e05377c)
 
 ## Fitur Utama
 - ✅ Sintaks bahasa Indonesia (`variabel`, `jika`, `cetak`, dll.)
