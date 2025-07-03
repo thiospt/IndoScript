@@ -6,6 +6,7 @@ yarn.lock
 # Output Kompilasi
 dist/
 build/
+*.js
 *.js.map
 
 # Environment
@@ -29,6 +30,3 @@ Thumbs.db
 # Test Coverage
 coverage/
 .nyc_output/
-
-# File Output Contoh
-output.js
