@@ -1,0 +1,29 @@
+{
+  "name": "indoscript",
+  "version": "0.1.0",
+  "description": "Bahasa pemrograman JavaScript dengan sintaks Bahasa Indonesia",
+  "main": "src/compiler/transpiler.js",
+  "scripts": {
+    "compile": "node src/cli.js",
+    "test": "jest"
+  },
+  "bin": {
+    "indoscript": "./src/cli.js"
+  },
+  "keywords": [
+    "indonesian",
+    "programming",
+    "language",
+    "education"
+  ],
+  "author": "Thio",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
