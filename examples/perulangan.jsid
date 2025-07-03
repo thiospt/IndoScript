@@ -1,0 +1,20 @@
+// Contoh perulangan untuk
+cetak("Perulangan untuk:");
+untuk (variabel i = 1; i <= 5; i++) {
+    cetak("Iterasi ke-" + i);
+}
+
+// Contoh perulangan selama
+cetak("\nPerulangan selama:");
+variabel counter = 3;
+selama (counter > 0) {
+    cetak("Counter: " + counter);
+    counter--;
+}
+
+// Perulangan melalui array
+cetak("\nDaftar buah:");
+variabel buah = ["Apel", "Mangga", "Jeruk", "Pisang"];
+untuk (variabel i = 0; i < panjang(buah); i++) {
+    cetak((i+1) + ". " + buah[i]);
+}
