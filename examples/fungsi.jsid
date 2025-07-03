@@ -1,0 +1,26 @@
+// Contoh fungsi di IndoScript
+fungsi sapa(nama) {
+    kembalikan "Halo, " + nama;
+}
+
+variabel pesan = sapa("Dian");
+cetak(pesan);
+
+// Fungsi dengan banyak parameter
+fungsi tambah(a, b) {
+    kembalikan a + b;
+}
+
+cetak("5 + 3 = " + tambah(5, 3));
+
+// Fungsi dengan kondisi
+fungsi cekGenap(angka) {
+    jika (angka % 2 == 0) {
+        kembalikan benar;
+    } lain {
+        kembalikan salah;
+    }
+}
+
+cetak("4 genap? " + cekGenap(4));
+cetak("7 genap? " + cekGenap(7));
