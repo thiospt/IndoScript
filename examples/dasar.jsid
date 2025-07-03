@@ -1,0 +1,14 @@
+// Program dasar IndoScript
+variabel nama = "Budi";
+cetak("Halo, " + nama);
+
+variabel umur = 17;
+jika (umur >= 17) {
+    cetak("Anda dewasa");
+} lain {
+    cetak("Anda di bawah umur");
+}
+
+variabel buah = ["Apel", "Mangga", "Jeruk"];
+cetak("Buah pertama: " + buah[0]);
+cetak("Jumlah buah: " + panjang(buah));
